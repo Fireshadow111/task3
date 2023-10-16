@@ -1,0 +1,55 @@
+:root{
+    --bestColor: rgb(173, 69, 142);
+    --secondBestColor: rgb(0, 0, 0);
+    --thirdBestColor: rgb(255, 0, 0);
+}
+
+body{
+    background-color: var(--secondBestColor);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:var(--bestColor);
+}
+
+img{
+    border-style: dotted;
+    padding: 15px;
+    max-width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: crimson;
+    padding: 20px;
+    font-size: 50px;
+}
+
+p{
+    color: var(--thirdBestColor);
+    background-color: black;
+}
+
+/* Samsung galaxy 51/71 */
+@media screen and (max-width: 412px){
+body{ background-color: var(--secondBestColor);
+}
+}
+ 
+
+
+/* Pixel 5 */
+@media screen and (max-width: 393px) {
+    body{ background-color: var(--secondBestColor);
+
+    }
+}
+
+/* Samsung galaxy s8+ */
+@media screen and (max-width: 360px) {
+    body{ background-color: var(--secondBestColor);
+
+    }
+}
