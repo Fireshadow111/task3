@@ -2,7 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+/* Custom colors */
 :root{
     --bestColor: rgb(0, 68, 255);
     --secondBestColor: rgb(0, 0, 0);
@@ -13,6 +13,7 @@ body{
     background-color: var(--secondBestColor);
 }
 
+/* Headings */
 h1{
     font-family: 'Times New Roman', Times, serif;
     color:var(--bestColor);
@@ -21,6 +22,7 @@ h1{
     font-size: 50px;
 }
 
+/* Images */
 img{
     border-style: solid;
     border-color: white;
@@ -29,6 +31,7 @@ img{
 
 }
 
+/* Nav links */
 nav a{
     text-decoration: none;
     color: rgb(220, 20, 20);
@@ -40,13 +43,13 @@ nav a{
 }
 
 
-
+/* Paragraphs */
 p{
     color: var(--thirdBestColor);
     font-size: 30px;
 }
 
-
+/* Button */
 .button{
     text-decoration: none;
     color: black;
