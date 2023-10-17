@@ -1,7 +1,12 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 :root{
-    --bestColor: rgb(173, 69, 142);
+    --bestColor: rgb(0, 68, 255);
     --secondBestColor: rgb(0, 0, 0);
-    --thirdBestColor: rgb(255, 0, 0);
+    --thirdBestColor: rgb(153, 0, 255);
 }
 
 body{
@@ -11,26 +16,50 @@ body{
 h1{
     font-family: 'Times New Roman', Times, serif;
     color:var(--bestColor);
+    margin-top: 80px;
+    background-color: white;
+    font-size: 50px;
 }
 
 img{
-    border-style: dotted;
+    border-style: solid;
+    border-color: white;
     padding: 15px;
     max-width: 100%;
 
 }
 
-a{
+nav a{
     text-decoration: none;
-    color: crimson;
+    color: rgb(220, 20, 20);
     padding: 20px;
-    font-size: 50px;
+    font-size: 65px;
+    background-color: white;
+
+   
 }
+
+
 
 p{
     color: var(--thirdBestColor);
-    background-color: black;
+    font-size: 30px;
 }
+
+
+.button{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    font-size: 50px;
+   
+}
+
+
+
+
+
+
 
 /* Samsung galaxy 51/71 */
 @media screen and (max-width: 412px){
